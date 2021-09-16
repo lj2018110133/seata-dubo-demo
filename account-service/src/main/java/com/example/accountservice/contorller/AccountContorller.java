@@ -16,6 +16,8 @@ public class AccountContorller {
     @Reference(version = "1.0.1")
     private StorageDubboService storageDubboService;
 
+    //index
+    // index12
     @RequestMapping(value = "/index")
     @ResponseBody
     public boolean get(int money,String uid) throws SQLException {
