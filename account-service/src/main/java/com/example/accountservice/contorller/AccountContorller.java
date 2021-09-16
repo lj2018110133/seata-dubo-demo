@@ -29,5 +29,6 @@ public class AccountContorller {
 
 //        return service.decreaseAccount(money,uid);
         return storageDubboService.decreaseStorage(money,uid);
+
     }
 }
