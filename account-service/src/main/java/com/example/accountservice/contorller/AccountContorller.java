@@ -18,7 +18,7 @@ public class AccountContorller {
 
     //index
     // index12
-    // index3
+    // index
     @RequestMapping(value = "/index")
     @ResponseBody
     public boolean get(int money,String uid) throws SQLException {
