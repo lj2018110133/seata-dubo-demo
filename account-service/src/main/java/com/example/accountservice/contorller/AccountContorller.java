@@ -19,10 +19,6 @@ public class AccountContorller {
     //index
     // index12
     // index3
-
-
-
-
     @RequestMapping(value = "/index")
     @ResponseBody
     public boolean get(int money,String uid) throws SQLException {
@@ -30,6 +26,8 @@ public class AccountContorller {
 
 //        return service.decreaseAccount(money,uid);
         return storageDubboService.decreaseStorage(money,uid);
+
+
 
     }
 }
